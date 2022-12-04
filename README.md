@@ -1,5 +1,5 @@
-[Mekan Listele Sonucu](https://mekanbul-1.busrayaman.repl.co/?enlem=37.8&boylam=30.5)
-![Ekran görüntüsü 2022-12-04 172403](https://user-images.githubusercontent.com/79107137/205496233-d19e6e74-3528-41be-8ec0-03c4f4ce67ef.png)
+[Mekan Listele](https://mekanbul-1.busrayaman.repl.co/?enlem=37.8&boylam=30.5)
+
 
 [Girilen Konum Civarındaki Mekanları Listele](https://mekanbul-1.busrayaman.repl.co/api/mekanlar?enlem=37.8&boylam=35.4)
 ![Ekran görüntüsü 2022-11-21 210413](https://user-images.githubusercontent.com/79107137/203139271-a4e2ebab-b2a4-4ed9-8336-c492075b7a68.png)
