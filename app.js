@@ -1,6 +1,7 @@
 var createError = require("http-errors");
 require("./app_api/models/db");
 var express = require("express");
+var session=require('express-session');
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
@@ -21,7 +22,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/api",apiRouter);
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-
+app.use(session({
+  secret:"gizli",
+  cookie:{maxAge:1000*60*60*24},
+  resave:true,
+  saveUninitialized:true
+}));
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 
