@@ -1,4 +1,4 @@
-[Mekan Listele](https://mekanbul-1.busrayaman.repl.co/?enlem=37.8&boylam=30.5)
+[Replit Adresi](https://mekanbul-1.busrayaman.repl.co/?enlem=37.8&boylam=30.5)
 
 
 [Girilen Konum Civarındaki Mekanları Listele](https://mekanbul-1.busrayaman.repl.co/api/mekanlar?enlem=37.8&boylam=35.4)
